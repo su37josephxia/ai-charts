@@ -3,8 +3,8 @@
     <div class="justify-between items-center block">
       <div class="flex shrink-0 grow-0 items-center justify-center mb-6 md:mb-0">
         <div class="text-center md:text-left">
-          <b>© 2022,
-            <a href="https://github.com/smarty-team/smarty-admin" target="_blank">smarty-admin</a></b>
+          <b>© 2024,
+            <a href="https://github.com/su37josephxia/aicharts" target="_blank">ai-chart</a></b>
         </div>
       </div>
     </div>
