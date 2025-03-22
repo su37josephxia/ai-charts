@@ -4,7 +4,9 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Card: typeof import('./components/Card.vue')['default']
     Dark: typeof import('./components/Dark.vue')['default']
+    DataTable: typeof import('./components/DataTable.vue')['default']
     FooterContent: typeof import('./components/FooterContent.vue')['default']
     Language: typeof import('./components/Language.vue')['default']
     Navbar: typeof import('./components/Navbar.vue')['default']

@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@handsontable/vue3": "^15.2.0",
     "@iconify-json/logos": "^1.1.22",
     "@intlify/vite-plugin-vue-i18n": "^3.4.0",
     "@mdi/js": "^6.9.96",
@@ -21,6 +22,8 @@
     "@vueuse/core": "^9.6.0",
     "@vueuse/head": "^0.7.13",
     "daisyui": "^5.0.9",
+    "handsontable": "^15.2.0",
+    "install": "^0.13.0",
     "pinia": "^2.0.28",
     "unplugin-auto-import": "^0.10.3",
     "unplugin-vue-components": "^0.17.21",
@@ -29,6 +32,7 @@
     "vite-plugin-vue-layouts": "^0.6.0",
     "vite-router": "^1.0.1",
     "vue": "^3.2.45",
+    "vue-handsontable-official": "^1.1.1",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.6"
   },
