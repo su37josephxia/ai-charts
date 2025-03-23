@@ -1,7 +1,7 @@
 <template>
-    <div class="ht-theme-main-dark-auto">
-        <hot-table :data="data" :rowHeaders="true" :colHeaders="true"
-            licenseKey="non-commercial-and-evaluation"></hot-table>
+    <div class="">
+        <hot-table :data="data" :rowHeaders="true" :colHeaders="true" licenseKey="non-commercial-and-evaluation"
+            minCols="100" minRows="100"></hot-table>
     </div>
 </template>
 

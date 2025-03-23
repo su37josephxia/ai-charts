@@ -5,6 +5,12 @@ import Card from './Card.vue'
 import DataTable from './DataTable.vue'
 </script>
 <template>
-    <data-table></data-table>
-    <!-- <card></card> -->
+    <div class="bg-white p-10">
+        <!-- <data-table></data-table> -->
+        <card></card>
+
+
+    </div>
+
+
 </template>
