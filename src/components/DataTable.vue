@@ -1,7 +1,7 @@
 <template>
     <div class="">
-        <hot-table :data="data" :rowHeaders="true" :colHeaders="true" licenseKey="non-commercial-and-evaluation"
-            minCols="100" minRows="100"></hot-table>
+        <hot-table :data="data" :rowHeaders="true" :colHeaders="true"
+            licenseKey="non-commercial-and-evaluation"></hot-table>
     </div>
 </template>
 
