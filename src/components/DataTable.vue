@@ -1,7 +1,8 @@
 <template>
-    <div class="">
-        <hot-table :data="data" :rowHeaders="true" :colHeaders="true"
-            licenseKey="non-commercial-and-evaluation"></hot-table>
+    <div class="custom-data-table">
+        <hot-table :data="data" :rowHeaders="true" :colHeaders="true" :contextMenu="true" :stretchH="all"
+            :stretchV="all" :height="600" :width="800" licenseKey="non-commercial-and-evaluation"
+            copyPaste="true"></hot-table>
     </div>
 </template>
 
@@ -14,25 +15,26 @@ import 'handsontable/styles/ht-theme-main.min.css';
 
 // register Handsontable's modules
 registerAllModules(
-    {
-        // 这里添加许可证密钥
-    }
+
 );
 
 export default defineComponent({
-    data() {
-        return {
-            data: [
-                ['', 'Ford', 'Volvo', 'Toyota', 'Honda'],
-                ['2016', 10, 11, 12, 13],
-                ['2017', 20, 11, 14, 13],
-                ['2018', 30, 15, 12, 13]
-            ],
-
-        };
+    props: {
+        data: {
+            type: Array,
+            default: () => []
+        }
     },
     components: {
         HotTable,
     }
 });
 </script>
+
+<style scoped>
+.custom-data-table {
+    /* 这里可以添加自定义样式 */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+</style>
